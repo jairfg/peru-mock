@@ -1,5 +1,9 @@
 # peru-mock
 
+[![npm version](https://img.shields.io/npm/v/peru-mock?logo=npm)](https://www.npmjs.com/package/peru-mock)
+[![Node.js](https://img.shields.io/node/v/peru-mock?logo=node.js)](https://nodejs.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 Genera datos peruanos ficticios para pruebas. Es pequeño,
 no tiene dependencias y funciona con módulos ES.
 
