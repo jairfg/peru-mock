@@ -1,0 +1,37 @@
+{
+  "name": "peru-mock",
+  "version": "1.0.0",
+  "description": "Generador de datos peruanos ficticios para pruebas.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check:pack": "npm pack --dry-run"
+  },
+  "keywords": [
+    "peru",
+    "mock",
+    "faker",
+    "testing",
+    "dni"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false
+}
